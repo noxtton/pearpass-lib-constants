@@ -6,7 +6,12 @@
   "main": "src/index.js",
   "license": "Apache-2.0",
   "scripts": {
-    "lint": "eslint --fix ."
+    "prepare": "husky || true",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
   },
   "peerDependencies": {
     "tether-dev-docs": "0.0.x"
