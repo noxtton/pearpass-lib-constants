@@ -73,3 +73,5 @@ export {
   AUTO_LOCK_TIMEOUT_OPTIONS,
   DEFAULT_AUTO_LOCK_TIMEOUT
 } from './constants/autoLock'
+
+export { MAX_IMPORT_RECORDS } from './constants/import'
